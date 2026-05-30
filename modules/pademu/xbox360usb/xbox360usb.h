@@ -4,12 +4,12 @@
 #include "irx.h"
 #include "../pademu.h"
 
-#define XBOX_VID 0x045E     // Microsoft Corporation
+#define XBOX_VID 0x3537     // Microsoft Corporation
 #define MADCATZ_VID 0x1BAD  // For unofficial Mad Catz controllers
 #define JOYTECH_VID 0x162E  // For unofficial Joytech controllers
 #define GAMESTOP_VID 0x0E6F // Gamestop controller
 
-#define XBOX_WIRED_PID 0x028E                         // Microsoft 360 Wired controller
+#define XBOX_WIRED_PID 0x1040                         // Microsoft 360 Wired controller
 #define XBOX_WIRELESS_PID 0x028F                      // Wireless controller only support charging
 #define XBOX_WIRELESS_RECEIVER_PID 0x0719             // Microsoft Wireless Gaming Receiver
 #define XBOX_WIRELESS_RECEIVER_THIRD_PARTY_PID 0x0291 // Third party Wireless Gaming Receiver

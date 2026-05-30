@@ -16,7 +16,9 @@ jobs:
         apk add build-base git zip
 
     - uses: actions/checkout@v4
-    - run: |
+    - name: Arreglar permisos de Git
+      run: |
+        git config --global --add safe.directory '*'
         git fetch --prune --unshallow
 
     - name: Compile -> make clean opl.elf
